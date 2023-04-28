@@ -15,19 +15,23 @@
 
 4. Update the database credentials in the .env file with your own database details.
 
-5. Once the database credentials have been updated, setup the database schema using the following command in the terminal from the project's root folder:
+5. Generate an application key and create a symbolic link for the storage folder by running the following commands: 
+```php artisan key:generate```
+```php artisan storage:link```
+
+6. Once the database credentials have been updated, setup the database schema using the following command in the terminal from the project's root folder:
 ```php artisan migrate```
 
-6. Running the command 'npm run dev' will create a development build of your project. This command will compile your assets and generate a public folder that contains the compiled code.
+7. Running the command 'npm run dev' will create a development build of your project. This command will compile your assets and generate a public folder that contains the compiled code.
 ```npm run dev```
 
-7. Then start your server by running the following command in the terminal:
+8. Then start your server by running the following command in the terminal:
 ```php artisan serve```
 
-8. Finally, check the unit testing by running the following command in the terminal:
+9. Finally, check the unit testing by running the following command in the terminal:
 ```php artisan test```
 
-9. To view your project locally, you can open your web browser and navigate to the following address:
+10. To view your project locally, you can open your web browser and navigate to the following address:
 ```http://127.0.0.1:8000/```
 
 

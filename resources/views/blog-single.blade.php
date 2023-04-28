@@ -10,7 +10,7 @@
                         @if($blog->image != '')
                             <img src="/storage/{{$blog->image}}" class="w-full object-cover rounded-lg h-48 lg:h-custom415" alt="{{$blog->title}}" width="873" height="415" >    
                         @else
-                            <img src="/storage/default.png" class="w-full mb-4 md:mb-0 h-40 md:h-50 rounded-lg object-cover object-center" alt="{{$blog['title']}}" >
+                            <img src="/public/images/default.png" class="w-full mb-4 md:mb-0 h-40 md:h-50 rounded-lg object-cover object-center" alt="{{$blog['title']}}" >
                         @endif
                     </div>
                 <div class="w-full inline-block mt-4">
