@@ -4,7 +4,7 @@
 ### Quick Project Setup - Installation
 
 1. To clone the repository using the command line, open your terminal and type in the following command:
-```git clone https://github.com/1986webdeveloper/test_task.git```
+```git clone https://github.com/1986webdeveloper/blog-test.git```
 
 2. Next, install Laravel dependencies by running the following commands in the terminal:
 ```composer install```
