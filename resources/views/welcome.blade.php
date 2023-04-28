@@ -11,7 +11,7 @@
                             @if($blog['image'] != '')
                                 <img src="/storage/{{$blog['image']}}" class="w-full mb-4 md:mb-0 h-40 md:h-50 rounded-lg object-cover object-center" alt="{{$blog['title']}}" >
                             @else
-                                <img src="/public/images/default.png" class="w-full mb-4 md:mb-0 h-40 md:h-50 rounded-lg object-cover object-center" alt="{{$blog['title']}}" >
+                                <img src="/images/default.png" class="w-full mb-4 md:mb-0 h-40 md:h-50 rounded-lg object-cover object-center" alt="{{$blog['title']}}" >
                             @endif
                         </a>
                         <div class="flex w-full flex-col items-baseline justify-end h-auto mt-4">
