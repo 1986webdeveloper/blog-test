@@ -7,8 +7,10 @@ You're absolutely right! Here's a revised version with separate lines for code s
 
 1. Clone the repository
 To get started, open your terminal and run the command:
-```git clone https://github.com/1986webdeveloper/blog-test.git```
-This will create a copy of the project on your local machine.
+
+  ```git clone https://github.com/1986webdeveloper/blog-test.git```
+
+  This will create a copy of the project on your local machine.
 
 
 2. Install Dependencies
